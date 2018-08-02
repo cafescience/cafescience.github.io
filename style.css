@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+  margin: 0px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screenheight {
+  height: 100vh;
+}
+
+#left-section{
+  background-color: aqua;
+  color:blue;
+  position:relative;
+}
+
+#right-section{
+  background-color: white;
+  position:relative;
+}
+
+#whoami {
+  position: absolute;
+  margin: 20%;
+  width: 300px;
+  top: 45vh;
+  z-index: 2;
+}
+
+#about{
+  position: relative;
+}
+
+#logo {
+	display: block;
+  margin: 35% 40%;
+  width: 30%;
+  max-width: 150px;
+  min-width: 80px;
+
+	z-index: 100;
+	position:absolute;
+}
+
+#case-title {
+  padding: 0 0 5% 10%;
+}
+
+ul {
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+li a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 3vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #111111;
+}
+
+.borderless {
+  border: 0;
+  padding: 5% 10%;
+}
+
+.parent {
+  position: relative;
+}
