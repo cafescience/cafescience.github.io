@@ -29,6 +29,7 @@ body {
   background-color: aqua;
   color:blue;
   position:relative;
+  padding-right: 0;
 }
 
 #right-section{
@@ -64,6 +65,10 @@ body {
 }
 
 #resume {
+  padding-left: 3vw;
+}
+
+.nav-menu {
   padding-left: 3vw;
 }
 
